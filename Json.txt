@@ -1,0 +1,62 @@
+Part-A
+{
+ "output": {
+  "intents": [],
+  "entities": [
+   {
+    "entity": "ResponseTypes",
+    "location": [
+     0,
+     3
+    ],
+    "value": "positive",
+    "confidence": 1
+   }
+  ],
+  "generic": [
+   {
+    "response_type": "text",
+    "text": "Thank you for your payment. Your statement balance has been updated."
+   }
+  ],
+  "user_defined": {
+   "ui_action": {
+    "cc_displaystatement": {
+     "Account": "5624",
+     "Payment Date": "Wed, Jun 2, 2021",
+     "Total Balance": 380,
+     "Payment Amount": 50
+    },
+    "notification_display": {
+     "DisplayText": "The virtual assistant is able to display the user profile and updated balance within a chat interface."
+    }
+   }
+  }
+ },
+ "user_id": "c2161fcc-f5e9-4d78-97c8-64f42edc56bc"
+}
+
+
+Part-B
+
+{
+ "output": {
+  "intents": [],
+  "entities": [],
+  "generic": [
+   {
+    "response_type": "search",
+    "header": "I'm not sure what you mean, please try re-phrasing your question. I'm still in training and will learn more over time to help you with credit card queries. ",
+    "results": []
+   }
+  ],
+  "user_defined": {
+   "ui_action": {
+    "notification_display": {
+     "DisplayText": "This virtual assistant is only trained on specific information regarding booking an appointment, so it may not understand questions out of scope."
+    }
+   }
+  }
+ },
+ "user_id": "bc3b88b6-882f-4a59-9d70-4cfc98a48ad4"
+}
